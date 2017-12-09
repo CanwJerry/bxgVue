@@ -1,16 +1,14 @@
 {
-  "name": "bxgVue",
+  "name": "01cms",
   "version": "1.0.0",
-  "description": "bxgVue",
+  "description": "bxgvue",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --inline --hot --open --port 8765"
+    "dev": "webpack-dev-server --open --port 8765"
   },
-  "keywords": [],
   "author": "Jerry",
   "license": "ISC",
   "devDependencies": {
-    "axios": "^0.17.1",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-plugin-transform-runtime": "^6.23.0",
@@ -24,17 +22,13 @@
     "less-loader": "^4.0.5",
     "style-loader": "^0.19.0",
     "url-loader": "^0.6.2",
-    "vue-axios": "^2.0.2",
     "vue-loader": "^13.5.0",
-    "vue-router": "^3.0.1",
     "vue-template-compiler": "^2.5.4",
     "webpack": "^3.8.1",
     "webpack-dev-server": "^2.9.4"
   },
   "dependencies": {
     "vue": "^2.5.4",
-    "vue-picture-preview": "^0.0.1",
-    "vue-router": "^3.0.1",
-    "vuex": "^3.0.1"
+    "vue-router": "^3.0.1"
   }
 }
