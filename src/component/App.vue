@@ -1,6 +1,8 @@
 <template>
      <section>
-         <p>入口</p>
+         <v-topBar></v-topBar>
+         <v-leftBar></v-leftBar>
+         <router-view></router-view>
      </section>
 </template>
 

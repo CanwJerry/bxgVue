@@ -26,11 +26,12 @@ Vue.use(Vuex);
 //2.1引入项目根组件
 import App from '../component/App.vue';
 
-//2.2引入左侧跟右侧
-
+//2.2引入左侧跟头部
+import comLeftBar from '../component/frame/leftBar.vue';
+import comTopBar from '../component/frame/topBar.vue';
 
 //2.3引入首页
-// import comHome from '../component/home/home.vue';
+import comHome from '../component/home/home.vue';
 
 
 //2.9把公共组件封装成插件引入
@@ -46,8 +47,8 @@ import App from '../component/App.vue';
 // Vue.use(filters);
 
 //三注册全局组件
-// Vue.component('v-header', comHeader);
-// Vue.component('v-footer', comFooter);
+Vue.component('v-leftBar', comLeftBar);
+Vue.component('v-topBar', comTopBar);
 
 
 //四、创建vue实例，启动整个项目-----------------------------------------------------------------------
@@ -80,8 +81,8 @@ let vm = new Vue({
     router: new VueRouter({
         linkActiveClass:"mui-active",
         routes: [
-            //  {path:'/',redirect: '/home'},
-            //  {path:'/home',component:comHome},
+             {path:'/',redirect: '/home'},
+             {path:'/home',component:comHome},
              
         ]
     })
