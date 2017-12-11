@@ -50,6 +50,11 @@ module.exports = {
                     { loader: 'url-loader', options: { limit: 10240 } } // 小于10KB的打包
                 ]
             },
+            // 配置element-ui字体图标
+            {
+                test: /\.(woff|woff2?|eot|ttf|otf|svg)/,
+                loader: "file-loader"
+            },
 
             // js
             {

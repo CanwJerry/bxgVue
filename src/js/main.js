@@ -20,9 +20,9 @@ Vue.use(Vuex);
 // Vue.prototype.axios = axios;
 
 //1.4引入element-ui插件
-// import ElementUI from 'element-ui';
-// import 'element-ui/lib/theme-chalk/index.css';
-// Vue.use(ElementUI);
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+Vue.use(ElementUI);
 
 //二.引入各种我们自己写的组件-----------------------------------------------------------------------
 //2.1引入项目根组件
@@ -41,7 +41,7 @@ import comHome from '../component/home/home.vue';
 // Vue.use(common);
 
 //3.0 引入公共样式
-// import '../less/public.less';
+import '../less/public.less';
 
 
 //10.0引入公共过滤器

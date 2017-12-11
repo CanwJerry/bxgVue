@@ -1,7 +1,5 @@
 <template>
-     <section id="leftBar">
-            <p>leftBar</p>
-     </section>
+         
 </template>
 
 <script>
